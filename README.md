@@ -17,12 +17,7 @@ This repository reflects the responsibilities of a **Database Administrator** wo
 ```
 ecomdb-portfolio-project/
 │
-├── 1-architecture/
-│   ├── system-design-diagram.png
-│   ├── oltp-architecture.md
-│   └── olap-architecture.md
-│
-├── 2-relational-databases/
+├── 1-relational-databases/
 │   ├── mysql/
 │   │   ├── schema.sql
 │   │   ├── indexes.sql
@@ -34,13 +29,13 @@ ecomdb-portfolio-project/
 │       ├── replication-setup.md
 │       └── sample-data.sql
 │
-├── 3-nosql/
+├── 2-nosql/
 │   ├── mongo/
 │       ├── products.json
 │       ├── customers.json
 │       └── orderEvents.json
 │
-├── 4-etl-and-data-pipelines/
+├── 3-etl-and-data-pipelines/
 │   ├── airflow/
 │   │   ├── dag_etl_orders.py
 │   │   └── dag_daily_backup.py
@@ -49,7 +44,7 @@ ecomdb-portfolio-project/
 │   └── spark/
 │       └── transform_orders.py
 │
-├── 5-admin-operations/
+├── 4-admin-operations/
 │   ├── backup/
 │   │   ├── mysql-backup.sh
 │   │   ├── postgres-backup.sh
@@ -63,11 +58,10 @@ ecomdb-portfolio-project/
 │       ├── disk-usage.md
 │       └── high-cpu.md
 │
-├── 6-load-testing/
+├── 5-load-testing/
 │   ├── k6-script.js
 │   └── jmeter-testplan.jmx
-│
-└── LICENSE
+
 ```
 
 ---
